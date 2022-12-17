@@ -1,663 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Project</title>
-
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-    <link rel="stylesheet" href="./style.css">
-    
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Project</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
-<!-- header section starts      -->
-
-<header>
-
-    <a href="#" class="logo"><i class="fas fa-utensils"></i>wotos.</a>
-
+  <!-- header section starts      -->
+  <header>
+    <a href="#" class="logo">wotos.</a>
     <nav class="navbar">
-        <a class="active" href="#home">home</a>
-        <a href="#dishes">dishes</a>
-        <a href="#about">about</a>
-        <a href="#menu">menu</a>
-        <a href="#review">review</a>
-        <a href="#order">order</a>
+      <a class="active" href="#home">home</a> <a href="#dishes">dishes</a> <a href="#about">about</a> <a href="#menu">menu</a> <a href="#review">review</a> <a href="#order">order</a>
     </nav>
-
     <div class="icons">
-        <i class="fas fa-bars" id="menu-bars"></i>
-        <i class="fas fa-search" id="search-icon"></i>
-        <a href="#" class="fas fa-heart"></a>
-        <a href="#" class="fas fa-shopping-cart"></a>
+      <i class="fas fa-bars" id="menu-bars"></i> <i class="fas fa-search" id="search-icon"></i> <a href="#" class="fas fa-heart"></a> <a href="#" class="fas fa-shopping-cart"></a>
     </div>
-
-</header>
-
-<!-- header section ends-->
-
-<!-- search form  -->
-
-<form action="" id="search-form">
-    <input type="search" placeholder="search here..." name="" id="search-box">
-    <label for="search-box" class="fas fa-search"></label>
-    <i class="fas fa-times" id="close"></i>
-</form>
-
-<!-- home section starts  -->
-
-<section class="home" id="home">
-
+  </header><!-- header section ends-->
+  <!-- search form  -->
+  <form action="" id="search-form" name="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box"> <i class="fas fa-times" id="close"></i>
+  </form><!-- home section starts  -->
+  <section class="home" id="home">
     <div class="swiper-container home-slider">
-
-        <div class="swiper-wrapper wrapper">
-
-            <div class="swiper-slide slide">
-                <div class="content">
-                    <span>our special dish</span>
-                    <h3>spicy noodles</h3>
-                    <p>This the classic chezzy noodles which you will love it once you taste this you will not like anyother noodles except this.</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-                <div class="image">
-                    <img src="home-img-1.png" alt="">
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <div class="content">
-                    <span>our special dish</span>
-                    <h3>fried chicken</h3>
-                    <p>Fried chicken, often known as Southern fried chicken, is a meal made of chicken pieces that have been pan-fried, deep-fried, pressure-fried, or air-fried after being coated with seasoned flour or batter.</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-                <div class="image">
-                    <img src="home-img-2.png" alt="">
-                </div>
-            </div>
-
-            <div class="swiper-slide slide">
-                <div class="content">
-                    <span>our special dish</span>
-                    <h3>hot pizza</h3>
-                    <p>Pepperoni Pizza is a spicy salami created in the United States from cured pig and beef seasoned with paprika or other chilli peppers and then.</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-                <div class="image">
-                    <img src="home-img-3.png" alt="">
-                </div>
-            </div>
-
+      <div class="swiper-wrapper wrapper">
+        <div class="swiper-slide slide">
+          <div class="content">
+            <span>our special dish</span>
+            <h3>spicy noodles</h3>
+            <p>This the classic chezzy noodles which you will love it once you taste this you will not like anyother noodles except this.</p><a href="#" class="btn">order now</a>
+          </div>
+          <div class="image"><img src="home-img-1.png" alt="home-img-1"></div>
         </div>
-
-        <div class="swiper-pagination"></div>
-
+        <div class="swiper-slide slide">
+          <div class="content">
+            <span>our special dish</span>
+            <h3>fried chicken</h3>
+            <p>Fried chicken, often known as Southern fried chicken, is a meal made of chicken pieces that have been pan-fried, deep-fried, pressure-fried, or air-fried after being coated with seasoned flour or batter.</p><a href="#" class="btn">order now</a>
+          </div>
+          <div class="image"><img src="home-img-2.png" alt="home-img-2"></div>
+        </div>
+        <div class="swiper-slide slide">
+          <div class="content">
+            <span>our special dish</span>
+            <h3>hot pizza</h3>
+            <p>Pepperoni Pizza is a spicy salami created in the United States from cured pig and beef seasoned with paprika or other chilli peppers and then.</p><a href="#" class="btn">order now</a>
+          </div>
+          <div class="image"><img src="home-img-3.png" alt="home-img-3"></div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
     </div>
-
-</section>
-
-<!-- home section ends -->
-
-<!-- dishes section starts  -->
-
-<section class="dishes" id="dishes">
-
-    <h3 class="sub-heading"> our dishes </h3>
-    <h1 class="heading"> popular dishes </h1>
-
+  </section><!-- home section ends -->
+  <!-- dishes section starts  -->
+  <section class="dishes" id="dishes">
+    <h3 class="sub-heading">our dishes</h3>
+    <h1 class="heading">popular dishes</h1>
     <div class="box-container">
-
-        <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <img src="dish-1.png" alt="">
-            <h3>Crispy Burger</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <span>$19.99</span>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <img src="dish-2.png" alt="">
-            <h3>Fried chicken</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <span>$19.99</span>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <img src="dish-3.png" alt="">
-            <h3>Roasted chicken</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <span>$25.99</span>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <img src="dish-4.png" alt="">
-            <h3>Veg Pizza</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <span>$12.99</span>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <img src="dish-5.png" alt="">
-            <h3>Ice-Cream</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <span>$7.99</span>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-eye"></a>
-            <img src="dish-6.png" alt="">
-            <h3>Crispy Fried chicken</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-            <span>$17.99</span>
-            <a href="#" class="btn">add to cart</a>
-        </div>
-
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a> <a href="#" class="fas fa-eye"></a> <img src="dish-1.png" alt="dish-1">
+        <h3>Crispy Burger</h3>
+        <div class="stars"></div><span>$19.99</span> <a href="#" class="btn">add to cart</a>
+      </div>
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a> <a href="#" class="fas fa-eye"></a> <img src="dish-2.png" alt="dish-2">
+        <h3>Fried chicken</h3>
+        <div class="stars"></div><span>$19.99</span> <a href="#" class="btn">add to cart</a>
+      </div>
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a> <a href="#" class="fas fa-eye"></a> <img src="dish-3.png" alt="dish-3">
+        <h3>Roasted chicken</h3>
+        <div class="stars"></div><span>$25.99</span> <a href="#" class="btn">add to cart</a>
+      </div>
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a> <a href="#" class="fas fa-eye"></a> <img src="dish-4.png" alt="dish-4">
+        <h3>Veg Pizza</h3>
+        <div class="stars"></div><span>$12.99</span> <a href="#" class="btn">add to cart</a>
+      </div>
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a> <a href="#" class="fas fa-eye"></a> <img src="dish-5.png" alt="dish-5">
+        <h3>Ice-Cream</h3>
+        <div class="stars"></div><span>$7.99</span> <a href="#" class="btn">add to cart</a>
+      </div>
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a> <a href="#" class="fas fa-eye"></a> <img src="dish-6.png" alt="dish-6">
+        <h3>Crispy Fried chicken</h3>
+        <div class="stars"></div><span>$17.99</span> <a href="#" class="btn">add to cart</a>
+      </div>
     </div>
-
-</section>
-
-<!-- dishes section ends -->
-
-<!-- about section starts  -->
-
-<section class="about" id="about">
-
-    <h3 class="sub-heading"> Who we are </h3>
-    <h1 class="heading"> why you should choose us? </h1>
-
+  </section><!-- dishes section ends -->
+  <!-- about section starts  -->
+  <section class="about" id="about">
+    <h3 class="sub-heading">Who we are</h3>
+    <h1 class="heading">why you should choose us?</h1>
     <div class="row">
-
+      <div class="image"><img src="about-img.png" alt="about-img"></div>
+      <div class="content">
+        <h3>finest cuisine in the nation</h3>
+        <p>Company Name's legacy comes from The parent Restaurant which was built up in 1963. 'wotos' was worked for people in general and has advanced into a combination between exquisite chic and contemporary fine charge.</p>
+        <p>Our best gourmet expert sets you up a scrumptious dinner utilizing the best and freshest ingredients.</p>
+        <div class="icons-container">
+          <div class="icons">
+            <span>free delivery</span>
+          </div>
+          <div class="icons">
+            <span>easy payments</span>
+          </div>
+          <div class="icons">
+            <span>24/7 service</span>
+          </div>
+        </div><a href="#" class="btn">learn more</a>
+      </div>
+    </div>
+  </section><!-- about section ends -->
+  <!-- menu section starts  -->
+  <section class="menu" id="menu">
+    <h3 class="sub-heading">our menu</h3>
+    <h1 class="heading">today's speciality</h1>
+    <div class="box-container">
+      <div class="box">
         <div class="image">
-            <img src="about-img.png" alt="">
+          <img src="menu-1.jpg" alt="menu-1"> <a href="#" class="fas fa-heart"></a>
         </div>
-
         <div class="content">
-            <h3>finest cuisine in the nation </h3>
-            <p>Company Name's legacy comes from The parent Restaurant which was built up in 1963. 'wotos' was worked for people in general and has advanced into a combination between exquisite chic and contemporary fine charge.</p>
-            <p>Our best gourmet expert sets you up a scrumptious dinner utilizing the best and freshest ingredients.</p>
-            <div class="icons-container">
-                <div class="icons">
-                    <i class="fas fa-shipping-fast"></i>
-                    <span>free delivery</span>
-                </div>
-                <div class="icons">
-                    <i class="fas fa-dollar-sign"></i>
-                    <span>easy payments</span>
-                </div>
-                <div class="icons">
-                    <i class="fas fa-headset"></i>
-                    <span>24/7 service</span>
-                </div>
-            </div>
-            <a href="#" class="btn">learn more</a>
+          <div class="stars"></div>
+          <h3>Pizza</h3>
+          <p>Pizza is an Italian meal that consists of a normally circular, flat foundation of leavened wheat-based dough topped with tomatoes, mozzarella, and sometimes other ingredients, and then cooked at a high temperature, traditionally in a wood-fired oven. A pizzetta is another name for a little pizza.</p><a href="#" class="btn">add to cart</a> <span class="price">$12.99</span>
         </div>
-
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="menu-2.jpg" alt="menu-2"> <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars"></div>
+          <h3>Hamburger</h3>
+          <p>A hamburger, or simply burger, is a dish that consists of fillings typically a patty of ground meat, generally beef encased in a sliced bun or bread roll.</p><a href="#" class="btn">add to cart</a> <span class="price">$12.99</span>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="./bature.jpg" alt="bature"> <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars"></div>
+          <h3>Chole bhature</h3>
+          <p>Chole bhature is a popular dish in the Indian subcontinent's northern regions. It's a mash-up of chana masala and bhatura/puri, a deep-fried maida bread. Although it is commonly associated with Punjab, it is actually a gourmet delicacy from Delhi and Uttar Pradesh.</p><a href="#" class="btn">add to cart</a> <span class="price">$14.99</span>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="./dosa.jpg" alt="dosa"> <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars"></div>
+          <h3>Dosa</h3>
+          <p>A dosa, also known as a dosai, dosey, or dosha in South Indian cuisine, is a thin pancake cooked with a fermented batter of mashed black lentils and rice. Dosas are popular both in South Asia and across the world. Dosas are often served hot, with chutney and sambar.</p><a href="#" class="btn">add to cart</a> <span class="price">$20.99</span>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="./Post-3.jpg" alt="Post-3"> <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars"></div>
+          <h3>Chocolate Lava Cake</h3>
+          <p>Everyone adores chocolate lava cake because it is so irresistible. This very tasty chocolate cake is dripping with molten chocolate, which gives the dessert a special sparkle.</p><a href="#" class="btn">add to cart</a> <span class="price">$12.99</span>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="menu-6.jpg" alt="menu-6"> <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars"></div>
+          <h3>Cup Cakes</h3>
+          <p>A fresh variation on red velvet, blue velvet has all the same deliciousness of its predecessor's buttermilk tang and cream cheese icing.</p><a href="#" class="btn">add to cart</a> <span class="price">$5.99</span>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="menu-7.jpg" alt="menu-7"> <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars"></div>
+          <h3>Fruit Juice</h3>
+          <p>This is the organic fruit juice made with real fruit no added flavour</p><a href="#" class="btn">add to cart</a> <span class="price">$15.99</span>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="menu-8.jpg" alt="menu-8"> <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars"></div>
+          <h3>Açaí na tigela</h3>
+          <p>The Ribeirinhos, inhabitants of Pará and the Amazonas, often cook the Brazilian dessert aça na tigela. It is a delicacy created from the berries of the aça palm, which are characterised as having an "earthy" or creamy flavour. The fruit is frozen and mashed.</p><a href="#" class="btn">add to cart</a> <span class="price">$18.99</span>
+        </div>
+      </div>
     </div>
-
-</section>
-
-<!-- about section ends -->
-
-<!-- menu section starts  -->
-
-<section class="menu" id="menu">
-
-    <h3 class="sub-heading"> our menu </h3>
-    <h1 class="heading"> today's speciality </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <div class="image">
-                <img src="menu-1.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>Pizza</h3>
-                <p>Pizza is an Italian meal that consists of a normally circular, flat foundation of leavened wheat-based dough topped with tomatoes, mozzarella, and sometimes other ingredients, and then cooked at a high temperature, traditionally in a wood-fired oven. A pizzetta is another name for a little pizza.</p>
-                <a href="#" class="btn">add to cart</a>
-                <span class="price">$12.99</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="menu-2.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>Hamburger</h3>
-                <p>A hamburger, or simply burger, is a dish that consists of fillings typically a patty of ground meat, generally beef encased in a sliced bun or bread roll.</p>
-                <a href="#" class="btn">add to cart</a>
-                <span class="price">$12.99</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="./bature.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>Chole bhature</h3>
-                <p>Chole bhature is a popular dish in the Indian subcontinent's northern regions. It's a mash-up of chana masala and bhatura/puri, a deep-fried maida bread. Although it is commonly associated with Punjab, it is actually a gourmet delicacy from Delhi and Uttar Pradesh.</p>
-                <a href="#" class="btn">add to cart</a>
-                <span class="price">$14.99</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="./dosa.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>Dosa</h3>
-                <p>A dosa, also known as a dosai, dosey, or dosha in South Indian cuisine, is a thin pancake cooked with a fermented batter of mashed black lentils and rice. Dosas are popular both in South Asia and across the world. Dosas are often served hot, with chutney and sambar.</p>
-                <a href="#" class="btn">add to cart</a>
-                <span class="price">$20.99</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="./Post-3.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>Chocolate Lava Cake</h3>
-                <p>Everyone adores chocolate lava cake because it is so irresistible. This very tasty chocolate cake is dripping with molten chocolate, which gives the dessert a special sparkle.</p>
-                <a href="#" class="btn">add to cart</a>
-                <span class="price">$12.99</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="menu-6.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>Cup Cakes</h3>
-                <p>A fresh variation on red velvet, blue velvet has all the same deliciousness of its predecessor's buttermilk tang and cream cheese icing.</p>
-                <a href="#" class="btn">add to cart</a>
-                <span class="price">$5.99</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="menu-7.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>Fruit Juice</h3>
-                <p>This is the organic fruit juice made with real fruit no added flavour</p>
-                <a href="#" class="btn">add to cart</a>
-                <span class="price">$15.99</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="menu-8.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>Açaí na tigela</h3>
-                <p>The Ribeirinhos, inhabitants of Pará and the Amazonas, often cook the Brazilian dessert aça na tigela. It is a delicacy created from the berries of the aça palm, which are characterised as having an "earthy" or creamy flavour. The fruit is frozen and mashed.</p>
-                <a href="#" class="btn">add to cart</a>
-                <span class="price">$18.99</span>
-            </div>
-        </div>
-
-
-    </div>
-
-</section>
-
-<!-- menu section ends -->
-
-<!-- review section starts  -->
-
-<section class="review" id="review">
-
-    <h3 class="sub-heading"> customer's review </h3>
-    <h1 class="heading"> what they say </h1>
-
+  </section><!-- menu section ends -->
+  <!-- review section starts  -->
+  <section class="review" id="review">
+    <h3 class="sub-heading">customer's review</h3>
+    <h1 class="heading">what they say</h1>
     <div class="swiper-container review-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide slide">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="man1.jpg" alt="">
-                    <div class="user-info">
-                        <h3>Alex</h3>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                    </div>
-                </div>
-                <p>I came here for supper after visiting from the United States. It was simply incredible. We were given the top table, the owner welcomed everyone, our waiter was fantastic, and the lunch was delicious..</p>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide">
+          <div class="user">
+            <img src="man1.jpg" alt="man1">
+            <div class="user-info">
+              <h3>Alex</h3>
+              <div class="stars"></div>
             </div>
-
-            <div class="swiper-slide slide">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="man-2.jpg" alt="">
-                    <div class="user-info">
-                        <h3>jeff</h3>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                    </div>
-                </div>
-                <p>Dinner was fantastic, but the dessert was just okay. Our server was fantastic! We had a reservation but were not seated in a window seat as requested. Of course, it's a little pricy, but it's totally worth it for a memorable evening.</p>
-            </div>
-
-            <div class="swiper-slide slide">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="man-3.jpg" alt="">
-                    <div class="user-info">
-                        <h3>daran</h3>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                    </div>
-                </div>
-                <p>Dinner was fantastic, but the dessert was just okay. Our server was fantastic! We had a reservation but were not seated in a window seat as requested. Of course, it's a little pricy, but it's totally worth it for a memorable evening.</p>
-            </div>
-
-            <div class="swiper-slide slide">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="man-4.jpg" alt="">
-                    <div class="user-info">
-                        <h3>Ryan</h3>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                    </div>
-                </div>
-                <p>Excellent service, cuisine, and personnel! If you are celebrating a particular event, they will even place a beautiful handwritten note on the table to make it even more special. We had chicken and Caesar salad.</p>
-            </div>
-
+          </div>
+          <p>I came here for supper after visiting from the United States. It was simply incredible. We were given the top table, the owner welcomed everyone, our waiter was fantastic, and the lunch was delicious..</p>
         </div>
-
+        <div class="swiper-slide slide">
+          <div class="user">
+            <img src="man-2.jpg" alt="man-2">
+            <div class="user-info">
+              <h3>jeff</h3>
+              <div class="stars"></div>
+            </div>
+          </div>
+          <p>Dinner was fantastic, but the dessert was just okay. Our server was fantastic! We had a reservation but were not seated in a window seat as requested. Of course, it's a little pricy, but it's totally worth it for a memorable evening.</p>
+        </div>
+        <div class="swiper-slide slide">
+          <div class="user">
+            <img src="man-3.jpg" alt="man-3">
+            <div class="user-info">
+              <h3>daran</h3>
+              <div class="stars"></div>
+            </div>
+          </div>
+          <p>Dinner was fantastic, but the dessert was just okay. Our server was fantastic! We had a reservation but were not seated in a window seat as requested. Of course, it's a little pricy, but it's totally worth it for a memorable evening.</p>
+        </div>
+        <div class="swiper-slide slide">
+          <div class="user">
+            <img src="man-4.jpg" alt="man-4">
+            <div class="user-info">
+              <h3>Ryan</h3>
+              <div class="stars"></div>
+            </div>
+          </div>
+          <p>Excellent service, cuisine, and personnel! If you are celebrating a particular event, they will even place a beautiful handwritten note on the table to make it even more special. We had chicken and Caesar salad.</p>
+        </div>
+      </div>
     </div>
-    
-</section>
-
-<!-- review section ends -->
-
-<!-- order section starts  -->
-
-<section class="order" id="order">
-
-    <h3 class="sub-heading"> order now </h3>
-    <h1 class="heading"> free and fast </h1>
-
-   <form name="Order" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-        <div class="inputBox">
-            <div class="input">
-                <span>your name</span>
-                <input type="text" placeholder="enter your name">
-            </div>
-            <div class="input">
-                <span>your number</span>
-                <input type="number" placeholder="enter your number">
-            </div>
+  </section><!-- review section ends -->
+  <!-- order section starts  -->
+  <section class="order" id="order">
+    <h3 class="sub-heading">order now</h3>
+    <h1 class="heading">free and fast</h1>
+    <form name="Order" method="post" netlify-honeypot="bot-field" data-netlify="true" id="Order">
+      <div class="inputBox">
+        <div class="input">
+          <span>your name</span> <input type="text" placeholder="enter your name">
         </div>
-        <div class="inputBox">
-            <div class="input">
-                <span>your order</span>
-                <input type="text" placeholder="enter food name">
-            </div>
-            <div class="input">
-                <span>additional food</span>
-                <input type="test" placeholder="extra with food">
-            </div>
+        <div class="input">
+          <span>your number</span> <input type="number" placeholder="enter your number">
         </div>
-        <div class="inputBox">
-            <div class="input">
-                <span>how musch</span>
-                <input type="number" placeholder="how many orders">
-            </div>
-            <div class="input">
-                <span>date and time</span>
-                <input type="datetime-local">
-            </div>
+      </div>
+      <div class="inputBox">
+        <div class="input">
+          <span>your order</span> <input type="text" placeholder="enter food name">
         </div>
-        <div class="inputBox">
-            <div class="input">
-                <span>your address</span>
-                <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
-            </div>
-            <div class="input">
-                <span>your message</span>
-                <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
-            </div>
+        <div class="input">
+          <span>additional food</span> <input type="test" placeholder="extra with food">
         </div>
-          <div> data-netlify-recaptcha=""true"></div>
-        <input type="submit" value="order now" class="btn">
-
+      </div>
+      <div class="inputBox">
+        <div class="input">
+          <span>how musch</span> <input type="number" placeholder="how many orders">
+        </div>
+        <div class="input">
+          <span>date and time</span> <input type="datetime-local">
+        </div>
+      </div>
+      <div class="inputBox">
+        <div class="input">
+          <span>your address</span> 
+          <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="input">
+          <span>your message</span> 
+          <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+        </div>
+      </div><input type="submit" value="order now" class="btn">
     </form>
-
-</section>
-
-<!-- order section ends -->
-
-<!-- footer section starts  -->
-
-<section class="footer">
-
+  </section><!-- order section ends -->
+  <!-- footer section starts  -->
+  <section class="footer">
     <div class="box-container">
-
-        <div class="box">
-            <h3>locations</h3>
-            <a href="#">india</a>
-            <a href="#">japan</a>
-            <a href="#">russia</a>
-            <a href="#">USA</a>
-            <a href="#">france</a>
-        </div>
-
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="#">home</a>
-            <a href="#">dishes</a>
-            <a href="#">about</a>
-            <a href="#">menu</a>
-            <a href="#">reivew</a>
-            <a href="#">order</a>
-        </div>
-
-        <div class="box">
-            <h3>contact info</h3>
-            <a href="#">+123-456-8520</a>
-            <a href="#">+111-222-3333</a>
-            <a href="#">wotos@gmail.com</a>
-            <a href="#">wotos.a@gmail.com</a>
-            <a href="#">barrie, Canada - L4M 8YZ</a>
-        </div>
-
-        <div class="box">
-            <h3>follow us</h3>
-            <a href="#">facebook</a>
-            <a href="#">twitter</a>
-            <a href="#">instagram</a>
-            <a href="#">linkedin</a>
-        </div>
-
+      <div class="box">
+        <h3>locations</h3><a href="#">india</a> <a href="#">japan</a> <a href="#">russia</a> <a href="#">USA</a> <a href="#">france</a>
+      </div>
+      <div class="box">
+        <h3>quick links</h3><a href="#">home</a> <a href="#">dishes</a> <a href="#">about</a> <a href="#">menu</a> <a href="#">reivew</a> <a href="#">order</a>
+      </div>
+      <div class="box">
+        <h3>contact info</h3><a href="#">+123-456-8520</a> <a href="#">+111-222-3333</a> <a href="#">wotos@gmail.com</a> <a href="#">wotos.a@gmail.com</a> <a href="#">barrie, Canada - L4M 8YZ</a>
+      </div>
+      <div class="box">
+        <h3>follow us</h3><a href="#">facebook</a> <a href="#">twitter</a> <a href="#">instagram</a> <a href="#">linkedin</a>
+      </div>
     </div>
-
-    <div class="credit"> Created By <span>Ansh Rai</span> </div>
-
-</section>
-
-<!-- footer section ends -->
-
-<!-- loader part  -->
-<div class="loader-container">
-    <img src="loader.gif" alt="">
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="java.js"></script>
-
+    <div class="credit">
+      Created By <span>Ansh Rai</span>
+    </div>
+  </section><!-- footer section ends -->
+  <!-- loader part  -->
+  <div class="loader-container"><img src="loader.gif" alt="loader"></div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> <!-- custom js file link  -->
+   
+  <script src="java.js"></script>
 </body>
 </html>
